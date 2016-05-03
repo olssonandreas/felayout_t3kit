@@ -1,5 +1,5 @@
-$('.news-list-view__timelineItem').on('click', function(e){
-    if($(this).hasClass('collapsed')){
+$('.news-list-view__timelineItem').on('click', function(e) {
+    if ($(this).hasClass('collapsed')){
         e.preventDefault();
         $(this).removeClass('collapsed');
         $(this).closest('.news-list-view__wrapper').find('.news-list-date').addClass('open');
@@ -7,5 +7,5 @@ $('.news-list-view__timelineItem').on('click', function(e){
 });
 
 $('.clippable').dotdotdot({
-watch: 'window'
+    watch: 'window'
 });
