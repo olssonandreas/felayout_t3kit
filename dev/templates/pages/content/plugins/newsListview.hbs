@@ -1,0 +1,143 @@
+---
+#layout: default.hbs #by default it is default.hbs, but you can specify another one
+title: News listview #title in menu
+position: 1 #position in menu
+hideInMenu: false #if true, will be hidden in menu
+hideInBreadcrumbs: false #if true, will be hidden in breadcrumbs
+externalLink: false #just add link (http://link.com) instead of "false" to use this page like a link to external page.
+---
+
+{{> breadcrumbs}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        {{>newsMenu}}
+        </div>
+        <div class="col-md-9">
+            <div id="c80">
+                <div class="news">
+                    <div class="news-list-view listview">
+                        <article class="news-list-view__listview  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                            <div class="news-img-wrap">
+                                <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-1/">
+                                    <div class="news-list-view__listViewImage" style="background-image:url('images/foto1.jpg');"></div>
+                                </a>
+                            </div>
+                            <div class="news-article-listview__text clippable">
+                                <span class="news-list-date">
+                                    <span class="news-list-date__text">Published:</span>
+                                    <time datetime="2015-10-06">10/06/2015<meta itemprop="datePublished" content="2015-10-06"></time>
+                                </span>
+                                <div class="news-article-header">
+                                    <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)</h1>
+                                </div>
+                                <div class="news-article-listview__teaser-text">
+                                    <span itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu...</p></span>
+                                </div>
+                            </div>
+                            <div class="news-article-listview__link">
+                                <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="#">Read more</a>
+                            </div>
+                        </article>
+
+                        <article class="news-list-view__listview  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                            <div class="news-img-wrap">
+                                <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="#">
+                                    <div class="news-list-view__listViewImage" style="background-image:url('images/foto1.jpg');"></div>
+                                </a>
+                            </div>
+                            <div class="news-article-listview__text clippable" style="word-wrap: break-word;">
+                                <span class="news-list-date">
+                                    <span class="news-list-date__text">
+                                        Published:
+                                    </span>
+                                    <time datetime="2015-10-06">
+                                        10/06/2015
+                                        <meta itemprop="datePublished" content="2015-10-06">
+                                    </time>
+                                </span>
+                                <div class="news-article-header">
+                                    <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                                </div>
+                                <!-- teaser -->
+                                <div class="news-article-listview__teaser-text">
+                                    <span itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. </p></span>
+                                </div>
+                            </div>
+                            <div class="news-article-listview__link">
+                                <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="#">Read more</a>
+                            </div>
+                        </article>
+                        <article class="news-list-view__listview  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                            <div class="news-img-wrap">
+                                <a title="Lorem ipsum" href="#">
+                                    <div class="news-list-view__listViewImage" style="background-image:url('images/foto1.jpg');"></div>
+                                </a>
+                            </div>
+                            <div class="news-article-listview__text clippable" style="word-wrap: break-word;">
+                                <span class="news-list-date"><span class="news-list-date__text">Published:</span>
+                                <time datetime="2015-10-06">10/06/2015<meta itemprop="datePublished" content="2015-10-06"></time></span>
+                                <div class="news-article-header">
+                                    <h1 itemprop="headline">Lorem ipsum dolor sit amet, comprehensam necessitatibus no eum.</h1>
+                                </div>
+                                <div class="news-article-listview__teaser-text">
+                                    <span itemprop="description"><p>Lorem ipsum dolor sit   </p></span>
+                                </div>
+                            </div>
+                            <div class="news-article-listview__link">
+                                <a class="more" title="Stenke Blomqvist joins Ivan Henrys" href="#" >Read more</a>
+                            </div>
+                        </article>
+                        <article class="news-list-view__listview  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                            <div class="news-img-wrap">
+                                <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="#">
+                                    <div class="news-list-view__listViewImage" style="background-image:url('images/foto1.jpg"></div>
+                                </a>
+                            </div>
+                            <div class="news-article-listview__text clippable" style="word-wrap: break-word;">
+                                <span class="news-list-date">
+                                    <span class="news-list-date__text">Published:</span>
+                                    <time datetime="2015-10-06">10/06/2015<meta itemprop="datePublished" content="2015-10-06"></time></span>
+                                    <div class="news-article-header">
+                                        <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)</h1>
+                                    </div>
+                                    <div class="news-article-listview__teaser-text">
+                                        <span itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu...</p></span>
+                                    </div>
+                                </div>
+                                <div class="news-article-listview__link">
+                                    <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="#">Read more</a>
+                                </div>
+                            </article>
+                            <article class="news-list-view__listview  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                <div class="news-img-wrap">
+                                    <div class="no-media-element">
+                                        <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)" href="#">
+                                            <img src="http://demo.t3kit.testserver.pixelant.nu/typo3temp/_processed_/csm_dummy-preview-image_a0eb6c53b0.png" alt="No image" width="100" height="100">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-article-listview__text clippable">
+                                    <span class="news-list-date">
+                                        <span class="news-list-date__text">Published:</span>
+                                        <time datetime="2015-10-06">10/06/2015<meta itemprop="datePublished" content="2015-10-06"></time>
+                                    </span>
+                                    <div class="news-article-header">
+                                        <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)</h1>
+                                    </div>
+                                    <div class="news-article-listview__teaser-text">
+                                        <span itemprop="description">
+                                            <p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu >Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu.</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="news-article-listview__link">
+                                        <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)" href="#">Read more</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

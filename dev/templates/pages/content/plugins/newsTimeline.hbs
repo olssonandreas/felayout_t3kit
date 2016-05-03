@@ -1,0 +1,175 @@
+---
+#layout: default.hbs #by default it is default.hbs, but you can specify another one
+title: News timeline #title in menu
+position: 1 #position in menu
+hideInMenu: false #if true, will be hidden in menu
+hideInBreadcrumbs: false #if true, will be hidden in breadcrumbs
+externalLink: false #just add link (http://link.com) instead of "false" to use this page like a link to external page.
+---
+
+{{> breadcrumbs}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            {{>newsMenu}}
+        </div>
+        <div class="col-md-9">
+            <div id="c80" class="">
+                <div class="news">
+                    <div class="news-list-view timeline">
+                        <div class="timeline">
+                            <h2 class="news-list-view__timelineHeader text-center">2015</h2>
+                            <div class="news-list-view__wrapper">
+                                <div class="news-list-date odd open">
+                                    <div>
+                                        <span class="news-list-view__timelineDay">06</span>
+                                        <span class="news-list-view__timelineMonth">Oct</span>
+                                    </div>
+                                </div>
+                                <article class="news-list-view__timeline  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="news-list-view__timelineItem odd nocollapse ">
+                                        <div class="news-img-wrap">
+                                            <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-1/">
+                                                <div class="news-list-view__timelineImage" style="background-image:url('images/foto1.jpg');"></div>
+                                            </a>
+                                        </div>
+                                        <div class="news-article-timeline__text">
+                                            <div class="news-article-header">
+                                                <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)</h1>
+                                            </div>
+                                            <div class="teaser-text">
+                                                <div itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu...</p></div>
+                                                <div class="news-list-view__link">
+                                                    <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-1/">
+                                                        Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="news-list-view__wrapper">
+                                <div class="news-list-date even">
+                                    <div>
+                                        <span class="news-list-view__timelineDay">06</span>
+                                        <span class="news-list-view__timelineMonth">Oct</span>
+                                    </div>
+                                </div>
+                                <article class="news-list-view__timeline  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="news-list-view__timelineItem even collapsed ">
+                                        <div class="news-img-wrap">
+                                            <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-2-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-2lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/">
+                                                <div class="news-list-view__timelineImage" style="background-image:url('images/foto1.jpg');"></div>
+                                            </a>
+                                        </div>
+                                        <div class="news-article-timeline__text">
+                                            <div class="news-article-header">
+                                                <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                                            </div>
+                                            <div class="teaser-text">
+                                                <div itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. </p></div>
+                                                <div class="news-list-view__link">
+                                                    <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-2-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-2lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit/">
+                                                        Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="news-list-view__wrapper">
+                                <div class="news-list-date odd">
+                                    <div>
+                                        <span class="news-list-view__timelineDay">06</span>
+                                        <span class="news-list-view__timelineMonth">Oct</span>
+                                    </div>
+                                </div>
+                                <article class="news-list-view__timeline  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="news-list-view__timelineItem odd collapsed ">
+                                        <div class="news-img-wrap">
+                                            <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-4/">
+                                                <div class="news-list-view__timelineImage" style="background-image:url('images/foto1.jpg');"></div>
+                                            </a>
+                                        </div>
+                                        <div class="news-article-timeline__text">
+                                            <div class="news-article-header">
+                                                <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)</h1>
+                                            </div>
+                                            <div class="teaser-text">
+                                                <div itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu...</p></div>
+                                                <div class="news-list-view__link">
+                                                    <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-4/">
+                                                        Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="news-list-view__wrapper">
+                                <div class="news-list-date even">
+                                    <div>
+                                        <span class="news-list-view__timelineDay">06</span>
+                                        <span class="news-list-view__timelineMonth">Oct</span>
+                                    </div>
+                                </div>
+                                <article class="news-list-view__timeline  articletype-0" itemscope="itemscope" itemtype="http://schema.org/Article">
+                                    <div class="news-list-view__timelineItem even collapsed  last">
+                                        <div class="news-img-wrap">
+                                            <span class="no-media-element">
+                                                <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-5/">
+                                                    <img src="http://demo.t3kit.testserver.pixelant.nu/typo3temp/_processed_/csm_dummy-preview-image_a0eb6c53b0.png" width="128" height="128" alt="">
+                                                </a>
+                                            </span>
+                                        </div>
+                                        <div class="news-article-timeline__text">
+                                            <div class="news-article-header">
+                                                <h1 itemprop="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)</h1>
+                                            </div>
+                                            <div class="teaser-text">
+                                                <div itemprop="description"><p>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac nisl eu...</p></div>
+                                                <div class="news-list-view__link">
+                                                    <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 5)" href="/content/plugins/news/article/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-copy-5/">
+                                                        Read more
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

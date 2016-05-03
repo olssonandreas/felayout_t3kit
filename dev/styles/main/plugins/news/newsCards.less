@@ -1,0 +1,50 @@
+/**
+Cards
+**/
+.news-list-view__card{
+    height: 475px;
+    position: relative;
+    background-color: @news-item-bgcolor;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.15); 
+    border: 1px solid @news-decoration;
+    margin-bottom: @news-gutter;
+    border-radius: 3px;
+}
+.news-list-view__card .no-media-element{
+    height: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.news-list-view__cardtext{
+    background-color: @news-item-bgcolor;
+    padding: 0 15px;
+}
+.news a .news-list-view__cardtext,
+.news .news-list-view__cardtext{
+    color: @news-textColor;
+}
+.news-list-view__cardtext{
+    height: 185px;
+    overflow: hidden;
+}
+.news-list-view__card .news-img-wrap{
+    min-height: 180px;
+}
+.news-list-view__cardImage{
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 20px;
+}
+ .news-list-view__card .news-list-view__author{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.news-list-view   .news-list-view__card .news-list-view__link{
+    padding: 15px;
+}

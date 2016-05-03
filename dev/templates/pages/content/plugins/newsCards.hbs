@@ -1,0 +1,156 @@
+---
+#layout: default.hbs #by default it is default.hbs, but you can specify another one
+title: News cards #title in menu
+position: 1 #position in menu
+hideInMenu: false #if true, will be hidden in menu
+hideInBreadcrumbs: false #if true, will be hidden in breadcrumbs
+externalLink: false #just add link (http://link.com) instead of "false" to use this page like a link to external page.
+---
+
+{{> breadcrumbs}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            {{>newsMenu}}
+        </div>
+        <div class="col-md-9">
+            <div id="c80" class="">
+                <div class="news">
+                    <div class="news-list-view cards">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <article class="news-list-view__card">
+                                    <a title="Hello (copy 1)" href="/content/plugins/news/article/hello-copy-1/">
+                                        <div class="news-img-wrap">
+                                            <div class="no-media-element">
+                                                <img src="http://demo.t3kit.testserver.pixelant.nu/typo3temp/_processed_/csm_dummy-preview-image_a0eb6c53b0.png" width="128" height="128" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="news-list-view__cardtext clippable">
+                                            <span class="news-list-date">
+                                                <span class="news-list-date__text">
+                                                    Published:
+                                                </span>
+                                                <time datetime="2016-04-19">
+                                                    04/19/2016
+                                                    <meta itemprop="datePublished" content="2016-04-19">
+                                                </time>
+                                            </span>
+                                            <div class="news-article-header" itemprop="headline"><h1>Hello (copy 1)</h1></div>
+                                            <div class="news-article-text" itemprop="headline"><span>Lorem ipsum Phat dolor  </span></div>
+                                        </div>
+                                    </a>
+                                    <div class="news-list-view__link">
+                                        <a class="more" title="Hello (copy 1)" href="#/">
+                                            Read more
+                                        </a>
+                                    </div>
+                                    <div class="news-list-view__author">
+                                        <span class="news-list-author">
+                                            created by Bengt
+                                        </span>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <article class="news-list-view__card">
+                                    <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="#">
+                                        <div class="news-img-wrap">
+                                            <div class="news-list-view__cardImage" style="background-image:url('images/foto1.jpg');"></div>
+                                        </div>
+                                        <div class="news-list-view__cardtext clippable is-truncated">
+                                            <span class="news-list-date">
+                                                <span class="news-list-date__text">
+                                                    Published:
+                                                </span>
+                                                <time datetime="2015-10-06">
+                                                    10/06/2015
+                                                    <meta itemprop="datePublished" content="2015-10-06">
+                                                </time>
+                                            </span>
+                                            <div class="news-article-header" itemprop="headline"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)</h1></div>
+                                            <div class="news-article-text" itemprop="headline"><span>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac... </span></div></div>
+                                        </a>
+                                        <div class="news-list-view__link">
+                                            <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 1)" href="#">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <article class="news-list-view__card">
+                                        <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="#">
+                                            <div class="news-img-wrap">
+                                                <div class="news-list-view__cardImage" style="background-image:url('images/foto1.jpg');"></div>
+                                            </div>
+                                            <div class="news-list-view__cardtext clippable">
+                                                <span class="news-list-date">
+                                                    <span class="news-list-date__text">
+                                                        Published:
+                                                    </span>
+                                                    <time datetime="2015-10-06">
+                                                        10/06/2015
+                                                        <meta itemprop="datePublished" content="2015-10-06">
+                                                    </time>
+                                                </span>
+                                                <div class="news-article-header" itemprop="headline"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1></div>
+                                                <div class="news-article-text" itemprop="headline"><span>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. </span></div>
+                                            </div>
+                                        </a>
+                                        <div class="news-list-view__link">
+                                            <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." href="#">
+                                                Read more
+                                            </a>
+                                        </div>
+                                        <div class="news-list-view__author">
+                                            <span class="news-list-author">
+                                                created by John Doe
+                                            </span>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <article class="news-list-view__card">
+                                        <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="#">
+                                            <div class="news-img-wrap">
+                                                <div class="news-list-view__cardImage" style="background-image:url('images/foto1.jpg');"></div>
+                                            </div>
+                                            <div class="news-list-view__cardtext clippable is-truncated">
+                                                <span class="news-list-date">
+                                                    <span class="news-list-date__text">
+                                                        Published:
+                                                    </span>
+                                                    <time datetime="2015-10-06">
+                                                        10/06/2015
+                                                        <meta itemprop="datePublished" content="2015-10-06">
+                                                    </time>
+                                                </span>
+                                                <div class="news-article-header" itemprop="headline"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)</h1></div>
+                                                <div class="news-article-text" itemprop="headline" ><span>Ut ullamcorper tincidunt ligula eu mollis. Proin tristique scelerisque lobortis. Cras faucibus erat dictum metus aliquet maximus. Nullam ac... </span></div></div>
+                                            </a>
+                                            <div class="news-list-view__link">
+                                                <a class="more" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. (copy 4)" href="#">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                            <div class="news-list-view__author">
+                                                <span class="news-list-author">
+                                                    created by John Doe
+                                                </span>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
